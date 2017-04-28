@@ -3,9 +3,9 @@
     Could be useful when you want to lay emphasis on what you want to print.
 """
 
-def glitz(string, border='.', num_borders=1, padding=5):
+def glitz(string, border='.', num_borders=1, padding=1):
     _num_borders = 1 if num_borders < 1 else num_borders
-    _padding = 5 if padding < 1 else padding
+    _padding = 1 if padding < 1 else padding
         
     border_length = len(string) + (_padding * 2)
     
