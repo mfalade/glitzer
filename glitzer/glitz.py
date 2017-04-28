@@ -1,6 +1,6 @@
 """
-    This is just a silly function that prints a ontop and below whatever string you pass to it.
-    Could be useful when you want to make lay emphasis on what you want to print.
+    This is just a silly function that prints an easily customizable line ontop and below whatever string you pass to it.
+    Could be useful when you want to lay emphasis on what you want to print.
 """
 
 def glitz(string, border='.', num_borders=1, padding=5):
