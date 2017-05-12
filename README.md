@@ -33,3 +33,6 @@ glitz('Hello world', padding=5)
 ```python
 glitz('Hello world', num_borders=2)
 ```
+
+---
+Take this for a spin and let me know what you think.
