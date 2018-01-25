@@ -6,8 +6,12 @@
 def glitz(string, border='.', num_borders=1, padding=1):
     _num_borders = 1 if num_borders < 1 else num_borders
     _padding = 1 if padding < 1 else padding
+    
+    if type(str) == 'str':
+        border_length = len(string) + (_padding * 2)
+    else:
+        border_length = 10
         
-    border_length = len(string) + (_padding * 2)
     
     for i in range(_num_borders):
         print(border * border_length)
